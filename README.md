@@ -54,7 +54,7 @@ Available commands:
 
 Choose a template with the -t option.
 
-    `./bin/md2resume html --template blockish examples/source/sample.md examples/output/`
+    `./bin/md2resume html examples/source/sample.md examples/output/`
 
 If you want to edit your markdown resume in your editor while watching it
 update in your browser, run this command:
@@ -86,23 +86,35 @@ this.
 ## Feature Development
 
 The application is deployed as a compiled phar file. In order to add new
-commands, you'll need to first install the dependencies:
+commands, you'll need to 
 
-* `composer install`
+1. [Install composer](https://getcomposer.org/download/) to the `markdown-resume` directory. 
+2. Install the dependencies
+```php
+php composer install
+```
+It may print a warning saying you need to `update` your libs, in which case, 
+```php
+php composer update
+```
 
-After that, you can run the `md2resume_dev.php` file from the command line.
+You should be able to run the `md2resume_dev.php` file from the command line once you're done
+```php
+php md2resume_dev.php
+```
+
 
 ## Building a Release
 
 1. Tag the repo with the new build number. This will be picked up for both
    the `version` file used by the self update command and placed into the
-   phar file.
-2. Run `pake build`.
+   phar file. You might also want to update the `composer.json` file with your address if you don't want it to overwrite any of your changes.
+2. Run `vendor/bin/pake build` to rebuild. **You might also want to update the `composer.json` file with your address if you don't want it to overwrite any of your changes.**
 3. Push both the tag and the code.
 
-Check out the pake tooling for more information about the build. Pake will be
-installed to `./vendor/bin/pake`. So for instance a complete phar file build
-looks like `./vendor/bin/pake build`.
+### `pake`
+
+Check out the [pake tooling](https://github.com/indeyets/pake) for more information about building. Pake will be installed to `./vendor/bin/pake` so you would `pake` using the full path `./vendor/bin/pake`. A complete phar file build looks like `./vendor/bin/pake build`.
 
 ## Acknowledgments
 
