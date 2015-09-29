@@ -1,7 +1,7 @@
 {
     "name": "there4/markdown-resume",
     "description": "Markdown Resume Generator",
-    "homepage": "https://github.com/there4/markdown-resume",
+    "homepage": "https://github.com/adilapapaya/markdown-resume",
     "keywords": [
         "markdown",
         "resume",
@@ -9,8 +9,8 @@
     ],
     "license": "MIT",
     "version": "2.0.10",
-    "selfupdatepath": "://github.com/there4/markdown-resume/raw/master/bin/md2resume",
-    "selfupdateversion": "://github.com/there4/markdown-resume/raw/master/version",
+    "selfupdatepath": "://github.com/adilapapaya/markdown-resume/raw/master/bin/md2resume",
+    "selfupdateversion": "://github.com/adilapapaya/markdown-resume/raw/master/version",
     "authors": [
         {
             "name": "Craig Davis",
@@ -34,10 +34,16 @@
             "name": "Abhishek Kandoi",
             "email": "abhikandoi2000@gmail.com",
             "role": "Contributor"
+        },
+        ,
+        {
+            "name": "Adila Faruk",
+            "email": "adilapapaya@gmail.com",
+            "role": "Contributor"
         }
     ],
     "support": {
-        "issues": "https://github.com/there4/markdown-resume/issues"
+        "issues": "https://github.com/adilapapaya/markdown-resume/issues"
     },
     "minimum-stability": "dev",
     "require": {
