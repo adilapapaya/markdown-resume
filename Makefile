@@ -13,7 +13,22 @@ example:
 		../bin/md2resume pdf --template $$name ../examples/source/sample.md ../examples/output/$$name/; \
 	done; \
 	cd ../;
-	
+
+# make just the 'papaya' example using md2resume_dev.php.
+# this bypasses needing to commit to github then update and run.
+papaya-example:
+	cd ./templates; \
+		mkdir ../examples/output/papaya; \
+		php ../md2resume_dev.php html --template papaya ../examples/source/sample.md ../examples/output/papaya/; \
+		php ../md2resume_dev.php pdf --template papaya ../examples/source/sample.md ../examples/output/papaya/; \
+	cd ../;
+
+resume:
+	cd ./templates; \
+		mkdir ../examples/output/papaya; \
+		php ../md2resume_dev.php html --template papaya ../examples/source/adila.md ../examples/output/papaya/; \
+		php ../md2resume_dev.php pdf --template papaya ../examples/source/adila.md ../examples/output/papaya/; \
+	cd ../;
 # make the mixu-layout examples ------------------	
 # mixu-layout-examples:
 # 	for name in `find ./mixu-layout-examples -mindepth 1 -maxdepth 1 -type d | sed -e 's/.\/layouts\///'` ; do \

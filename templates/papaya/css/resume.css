@@ -1,3 +1,17 @@
+/*.green { color: #2ca02c;}
+.steelblue { color: #1f77b4;}
+.orange { color: #ff7f0e;}
+.red { color: #d62728;}
+.yellow { color: #ffff00;}
+
+.gray-darker { color: #222; }
+.gray-dark {color: #333;}
+.gray {color: #555;}
+.gray-light {color: #999;}
+.gray-lighter {color: #eee; }
+
+*/
+
 .clearfix {
   zoom: 1;
 	&:after {
@@ -9,8 +23,22 @@
     }
 }
 
+/* Adila, Sept 25 2015 */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url(http://fonts.gstatic.com/s/inconsolata/v11/BjAYBlHtW3CJxDcjzrnZCCwlidHJgAgmTjOEEzwu1L8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url(http://fonts.gstatic.com/s/inconsolata/v11/AIed271kqQlcIRSOnQH0yTdGNerWpg2Hn6A-BxWgZ_I.ttf) format('truetype');
+}
+
 body {
-    font-family: 'Hoefler Text', Times New Roman, Times, serif;
+    font-family: 'Inconsolata', "Helvetica Neue", Helvetica, Arial, sans-serif;;
     color: #444;
 }
 h1, h2, h3, h4, ul dl dt {
@@ -32,7 +60,7 @@ h1, h2, h3, h4, ul dl dt {
 }
 
 a {
-    color: #990003;
+    color: #1f77b4;
 }
 
 a[href$='.pdf'] {
@@ -153,7 +181,7 @@ dl {
     dt {
         margin: 0;
         padding: 0;
-        font-size: 140%;
+        font-size: 110%;
     }
     dd {
         margin: 0 0 1.5em;

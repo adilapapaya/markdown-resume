@@ -1,9 +1,24 @@
 body.pdf {
     color: black;
 
+    .light {
+        color: #aaa;
+    }
+    .em {
+       font-style: italic;
+    }
+
+    code {
+      padding: 2px 4px;
+      /*font-size: 80%;*/
+      color: #4a4a4a;
+      background-color: #f8f8f8;
+      border-radius: 4px;
+    }
+
     a {
         text-decoration: none;
-        color: black;
+        /*color: black;*/
     }
     .container {
         width: 1000px;
@@ -30,7 +45,7 @@ body.pdf {
     h1 {
         letter-spacing: 0;
         margin-top: 0;
-        font-size: 48px;
+        font-size: 32px;
         text-transform: uppercase;
         font-weight: normal;
     }
@@ -44,27 +59,33 @@ body.pdf {
         float: left;
         width: 16%;
         font-style: normal;
+        /*display: inline-block;*/
+
     }
-    h3+p {
+    h3 + p {
         float: left;
         width: 78%;
+        /*display: inline-block;*/
     }
 
+
     blockquote {
-        top: 40px;
+        top: 10px;
         right: 50px;
         position: absolute;
     }
 
     ul li {
-        width: 33%;
-        float: left;
+        /*width: 33%;
+        float: left;*/
+        font-size: .8em;
+        /*padding-left: 17%;*/
     }
     ul dl {
         margin: 0;
         padding: 0.3em 0 0;
         dt {
-            font-size: 122%;
+            font-size: 110%;
             font-weight: normal;
             margin: 0 0 .75em;
         }
@@ -88,11 +109,12 @@ body.pdf {
     }
     ol li:nth-child(1), ol li:nth-child(2), ol li:nth-child(3) {
         border-top: none;
+        margin-top: -3px;
     }
 
     dl {
         margin: .7em 0 0;
-        page-break-inside: avoid !important;
+        /* page-break-inside: avoid;  !important; */
         display: block;
         width:79%;
         float: left;
@@ -104,10 +126,23 @@ body.pdf {
             margin-top: -2em;
         }
         em {
-            font-size: 130%;
-            font-style: normal;
+            font-size: 100%;
+            /*font-style: normal;*/
         }
 
     }
 
+    dl > dd > p:not(:first-child),
+    ul > li > p {
+        border-left: 1px solid #1f77b4;
+        padding-left: 10px;
+    }
+
+    ul {
+        display: inline-block;
+        width: 78%;
+    }
+    ul li {
+        line-height: 1.4em;
+    }
 }

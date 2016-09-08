@@ -98,9 +98,9 @@ It may print a warning saying you need to `update` your libs, in which case,
 php composer update
 ```
 
-You should be able to run the `md2resume_dev.php` file from the command line once you're done
+You should be able to run the `md2resume_dev.php` file from the command line once you're done. For example, this is what you would do to create a resume using a new template `custom_template`.
 ```php
-php md2resume_dev.php
+php md2resume_dev.php pdf --template custom_template examples/source/sample.md examples/output/`
 ```
 
 
