@@ -1,5 +1,5 @@
 # Nur Adila Faruk Senan
-## *Data Scientist, Apple Inc.*
+## *Data Scientist and Visualization Engineer, Apple Inc.*
 
 > [Download PDF](adila.pdf)  
 > [adilapapaya@gmail.com](adilapapaya@gmail.com)  
@@ -10,17 +10,19 @@
 
 
 
-*Data scientist passionate about producing insightful data analysis and  innovative data visualizations, enthusiastic about making friction-free user interfaces, and consistently seeking to improve the efficiency of the teams I work with.* 
+Data scientist passionate about producing insightful data analysis and  innovative data visualizations, enthusiastic about making friction-free user interfaces, and consistently seeking to improve the efficiency of the teams I work with.
 
 ------
 
 ### Experience {#experience}
 
 Apple Product Design
-: *Data Scientist*
+: *Data Scientist and Visualization Engineer*
   __February 2012 - Current__
 
-  Created simulations and visualizations that enabled rapid understanding of difficult concepts and instant identification of core issues. This involved writing various scripts and/or building reusable tools that continue to be used both within the team and by external groups. Wrote accompanying in-depth documentation and created various examples to help make these tools easy to understand and use.
+  Created simulations and visualizations that enabled rapid understanding of difficult concepts and instant identification of core issues. This involved writing various scripts and building reusable tools that continue to be used throughout the company. Wrote accompanying in-depth documentation and created various examples to help make these tools easy to understand and use.
+
+  Architected and developed visualizations for viewing and monitoring manufacturing data in real-time.
 
   Optimized existing algorithms (both vendor-created and in-house) for speed. 
 
@@ -29,8 +31,6 @@ Apple Product Design
   Wrote algorithms simulating various different design decisions to ensure the optimum design was chosen. 
 
   Revamped an exiting product quality monitoring tool to improve usability and speed, as well as to permit more in-depth analysis of issues.
-
-  Led hour long 'introductory' classes in `JMP` and `Excel` to other employees in the department. This involved introducing the attendees to the basics of data analysis in `JMP`, as well as training them on some of the lesser known 'tips and tricks' available for speeding up data processing. 
 
 
 Open Source Statistics Library
@@ -42,8 +42,8 @@ Open Source Statistics Library
 
 Apple Industrial Design
 : *Data Analyst Intern*
-
   __May - Aug 2011__
+
   Analyzed and visualized data specific to an at-the-time unreleased project with the help of various software platforms (primarily Matlab, Processing, Adobe Illustrator).
 
 University of California at Berkeley
@@ -68,11 +68,11 @@ University of California at Berkeley
 
 ### Technical {#technical}
 
-* *Data Processing*: `R`, `Python`, `Javascript`, `Processing`, `Java`, ``Matlab`, `JMP`.
+* *Data Processing & Analysis*: `R`, `Python`, `Javascript`, `Processing`, `Java`, `Matlab`, `JMP`.
 
 * *Data Visualization*: `Javascript`, `R`, `JMP`, `Processing`, `Matlab`.
 
-* *Web Development*: `Javascript`, `CSS`/`Sass`, `Shiny-Server`, `node.js`, `postgres`.
+* *Web Development*: `Javascript` (`d3`, `React`), `CSS`/`Sass`, `Shiny-Server`, `node.js`, `postgres`.
 
 * *Other Misc*: Unix shell scripting, `Git`, `Velocity`, Full MS Office and iWork suites.
 

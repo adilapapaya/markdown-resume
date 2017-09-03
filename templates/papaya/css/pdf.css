@@ -1,13 +1,11 @@
 body.pdf {
     color: black;
-
     .light {
         color: #aaa;
     }
-    .em {
-       font-style: italic;
+    em {
+       font-style: normal;
     }
-
     code {
       padding: 2px 4px;
       /*font-size: 80%;*/
@@ -56,15 +54,17 @@ body.pdf {
         font-weight: normal;
     }
     h3 {
-        float: left;
-        width: 16%;
+        /*float: left;
+        width: 16%;*/
         font-style: normal;
+        margin: 0;
         /*display: inline-block;*/
 
     }
     h3 + p {
-        float: left;
-        width: 78%;
+        display: block;
+       /* float: left;
+        width: 78%;*/
         /*display: inline-block;*/
     }
 
@@ -73,6 +73,10 @@ body.pdf {
         top: 10px;
         right: 50px;
         position: absolute;
+    }
+
+    dd > p:first-child{
+        font-size: 1.2em;
     }
 
     ul li {
@@ -96,7 +100,8 @@ body.pdf {
 
     ol {
         float: left;
-        width: 79%;
+        width: 100%;
+        /*width: 79%;*/
         margin: .7em 0 0;
     }
 
@@ -113,20 +118,23 @@ body.pdf {
     }
 
     dl {
+        border: 1px solid red;
         margin: .7em 0 0;
         /* page-break-inside: avoid;  !important; */
         display: block;
-        width:79%;
+        /*width:79%;*/
+        width: 100%;
         float: left;
         dt {}
         dd {
         }
         strong {
             float: right;
-            margin-top: -2em;
+            /* Make the dates align with the label */
+            margin-top: -1.6em; 
         }
         em {
-            font-size: 100%;
+            /*font-size: 100%;*/
             /*font-style: normal;*/
         }
 

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>Nur Adila Faruk Senan | &lt;em&gt;Data Scientist, Apple Inc.&lt;/em&gt;</title>
+<title>Nur Adila Faruk Senan | &lt;em&gt;Data Scientist and Visualization Engineer, Apple Inc.&lt;/em&gt;</title>
 <style type="text/css">
 
 article,
@@ -241,8 +241,8 @@ body.pdf {
 body.pdf .light {
   color: #aaa;
 }
-body.pdf .em {
-  font-style: italic;
+body.pdf em {
+  font-style: normal;
 }
 body.pdf code {
   padding: 2px 4px;
@@ -289,18 +289,19 @@ body.pdf h2 {
   font-weight: normal;
 }
 body.pdf h3 {
-  float: left;
-  width: 16%;
   font-style: normal;
+  margin: 0;
 }
 body.pdf h3 + p {
-  float: left;
-  width: 78%;
+  display: block;
 }
 body.pdf blockquote {
   top: 10px;
   right: 50px;
   position: absolute;
+}
+body.pdf dd > p:first-child {
+  font-size: 1.2em;
 }
 body.pdf ul li {
   font-size: .8em;
@@ -319,7 +320,7 @@ body.pdf ul dl dd {
 }
 body.pdf ol {
   float: left;
-  width: 79%;
+  width: 100%;
   margin: .7em 0 0;
 }
 body.pdf ol li {
@@ -336,17 +337,15 @@ body.pdf ol li:nth-child(3) {
   margin-top: -3px;
 }
 body.pdf dl {
+  border: 1px solid red;
   margin: .7em 0 0;
   display: block;
-  width: 79%;
+  width: 100%;
   float: left;
 }
 body.pdf dl strong {
   float: right;
-  margin-top: -2em;
-}
-body.pdf dl em {
-  font-size: 100%;
+  margin-top: -1.6em;
 }
 body.pdf dl > dd > p:not(:first-child),
 body.pdf ul > li > p {
@@ -384,15 +383,8 @@ body.pdf ul li {
   src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url(http://fonts.gstatic.com/s/inconsolata/v11/AIed271kqQlcIRSOnQH0yTdGNerWpg2Hn6A-BxWgZ_I.ttf) format('truetype');
 }
 body {
-  font-family: 'Inconsolata', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'San Francisco Display', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #444;
-}
-h1,
-h2,
-h3,
-h4,
-ul dl dt {
-  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
 }
 .container {
   margin: 0 auto;
@@ -520,7 +512,6 @@ dl dt {
   font-size: 110%;
 }
 dl dd {
-  margin: 0 0 1.5em;
   padding: 0;
   font-size: 80%;
   line-height: 1.4em;
@@ -652,7 +643,7 @@ dl em {
     <div class="resume">
         <h1>Nur Adila Faruk Senan</h1>
 
-<h2><em>Data Scientist, Apple Inc.</em></h2>
+<h2><em>Data Scientist and Visualization Engineer, Apple Inc.</em></h2>
 
 <blockquote>
   <p><a href="adila.pdf">Download PDF</a><br />
@@ -663,7 +654,7 @@ dl em {
 
 <hr />
 
-<p><em>Data scientist passionate about producing insightful data analysis and  innovative data visualizations, enthusiastic about making friction-free user interfaces, and consistently seeking to improve the efficiency of the teams I work with.</em></p>
+<p>Data scientist passionate about producing insightful data analysis and  innovative data visualizations, enthusiastic about making friction-free user interfaces, and consistently seeking to improve the efficiency of the teams I work with.</p>
 
 <hr />
 
@@ -672,10 +663,12 @@ dl em {
 <dl>
 <dt>Apple Product Design</dt>
 <dd>
-<p><em>Data Scientist</em>
+<p><em>Data Scientist and Visualization Engineer</em>
 <strong>February 2012 - Current</strong></p>
 
 <p>Created simulations and visualizations that enabled rapid understanding of difficult concepts and instant identification of core issues. This involved writing various scripts and/or building reusable tools that continue to be used both within the team and by external groups. Wrote accompanying in-depth documentation and created various examples to help make these tools easy to understand and use.</p>
+
+<p>Architected and developed front end visualizations for viewing and monitoring manufacturing data in real-time.</p>
 
 <p>Optimized existing algorithms (both vendor-created and in-house) for speed.</p>
 
@@ -698,10 +691,10 @@ dl em {
 
 <dt>Apple Industrial Design</dt>
 <dd>
-<p><em>Data Analyst Intern</em></p>
+<p><em>Data Analyst Intern</em>
+<strong>May - Aug 2011</strong></p>
 
-<p><strong>May - Aug 2011</strong>
-Analyzed and visualized data specific to an at-the-time unreleased project with the help of various software platforms (primarily Matlab, Processing, Adobe Illustrator).</p>
+<p>Analyzed and visualized data specific to an at-the-time unreleased project with the help of various software platforms (primarily Matlab, Processing, Adobe Illustrator).</p>
 </dd>
 
 <dt>University of California at Berkeley</dt>
@@ -732,9 +725,9 @@ Analyzed and visualized data specific to an at-the-time unreleased project with 
 <h3 id="technical">Technical</h3>
 
 <ul>
-<li><p><em>Data Processing</em>: <code>R</code>, <code>Python</code>, <code>Javascript</code>, <code>Processing</code>, <code>Java</code>, &#8220;Matlab<code>,</code>JMP`.</p></li>
+<li><p><em>Data Processing &amp; Analysis</em>: <code>R</code>, <code>Python</code>, <code>Javascript</code>, <code>Processing</code>, <code>Java</code>, <code>Matlab</code>, <code>JMP</code>.</p></li>
 <li><p><em>Data Visualization</em>: <code>Javascript</code>, <code>R</code>, <code>JMP</code>, <code>Processing</code>, <code>Matlab</code>.</p></li>
-<li><p><em>Web Development</em>: <code>Javascript</code>, <code>CSS</code>/<code>Sass</code>, <code>Shiny-Server</code>, <code>node.js</code>, <code>postgres</code>.</p></li>
+<li><p><em>Web Development</em>: <code>Javascript</code> (<code>d3</code>, <code>React</code>), <code>CSS</code>/<code>Sass</code>, <code>Shiny-Server</code>, <code>node.js</code>, <code>postgres</code>.</p></li>
 <li><p><em>Other Misc</em>: Unix shell scripting, <code>Git</code>, <code>Velocity</code>, Full MS Office and iWork suites.</p></li>
 </ul>
 
