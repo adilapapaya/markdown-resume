@@ -20,17 +20,18 @@ Apple Product Design
 : *Data Scientist and Visualization Engineer*
   __February 2012 - Current__
 
-  Created simulations and visualizations that enabled rapid understanding of difficult concepts and instant identification of core issues. This involved writing various scripts and building reusable tools that continue to be used throughout the company. Wrote accompanying in-depth documentation and created various examples to help make these tools easy to understand and use.
+
+  Involved in the analysis and visualization of data at various stages of the product development cycle at Apple including design, prototyping, manufacturing, and post-release.
+
+  Collaborated closely with various teams across the company including Industrial Design, Product Design, Manufacturing Design, Advanced Manufacturing Engineering, and Operations.
+
+  Created simulations and visualizations to identify core issues and evaluate design decisions. Some of the affected products include the Apple iMac display, the Apple MacBook haptic trackpad, the Apple MacBook Pro touchbar, and keyboards across all Apple products. 
+
+  Built generic visualization tools (primarily web-based or in Processing) that continue to be used throughout the company.
 
   Architected and developed visualizations for viewing and monitoring manufacturing data in real-time.
 
-  Optimized existing algorithms (both vendor-created and in-house) for speed. 
-
-  Performed validation of vendor algorithms to ensure correctness and validate performance claims.
-
-  Wrote algorithms simulating various different design decisions to ensure the optimum design was chosen. 
-
-  Revamped an exiting product quality monitoring tool to improve usability and speed, as well as to permit more in-depth analysis of issues.
+  Revamped an exiting product quality monitoring tool to improve usability and speed and permit more in-depth analysis of issues.
 
 
 Open Source Statistics Library
@@ -56,25 +57,17 @@ University of California at Berkeley
 
   Published articles in peer-reviewed journals on [a musculoskeletal model of the lumbar spine](https://simtk.org/home/lumbarspine), [the dynamics of the intervertebral disc](https://simtk.org/home/spinebushing/), [Cartesian stiffness matrices](http://dx.doi.org/10.1007/s11044-010-9205-z), [error analysis of experimentally obtained data sets](http://dx.doi.org/10.1016/j.jbiomech.2010.05.034), [quantification of rigid body motion using quaternions](http://dx.doi.org/10.1016/j.ijengsci.2008.12.008), and [plant growth dynamics](http://dx.doi.org/10.1016/j.jmps.2008.06.005).
 
-University of California at Berkeley
-: *Graduate Student Instructor*
-  __Fall 2007 & 2008, Spring 2009__
-  
-  Led discussion lectures and help sessions for Intermediate Dynamics (2 semesters) and Introductory Dynamics (1 semester).
-
-  Awarded the <span class='em'>"Outstanding Graduate Student Instructor Award"</span>, 2008-2009 school year.
-
 -------
 
 ### Technical {#technical}
 
-* *Data Processing & Analysis*: `R`, `Python`, `Javascript`, `Processing`, `Java`, `Matlab`, `JMP`.
+* *Data Processing & Analysis*: R, Python, Javascript, Processing, Java, Matlab, JMP.
 
-* *Data Visualization*: `Javascript`, `R`, `JMP`, `Processing`, `Matlab`.
+* *Data Visualization*: Javascript, R, JMP, Processing, Matlab.
 
-* *Web Development*: `Javascript` (`d3`, `React`), `CSS`/`Sass`, `Shiny-Server`, `node.js`, `postgres`.
+* *Web Development*: Javascript (d3, React), CSS/Sass, Shiny-Server, node.js, postgres.
 
-* *Other Misc*: Unix shell scripting, `Git`, `Velocity`, Full MS Office and iWork suites.
+* *Other Misc*: Unix shell scripting, Git, Velocity, Full MS Office and iWork suites.
 
 
 -------
@@ -116,9 +109,9 @@ University of California at Berkeley
 
 ### Interests {#interests}
 
-* *Technical*: Algorithm speed, Better ways of visualizing data, User-friendly documentation, User interfaces.
+* *Technical*: Better ways of visualizing data, User-friendly documentation, User interfaces.
 
-* *Sports*: Running, Strength training, Squash, Standing Desk-ing.
+* *Sports*: Squash, Standing Desk-ing.
 
 * *Other*: Human-Device interaction, Psychology, Perception, Design interfaces, Consumer behavior, Grocery shopping, Boiling water, Making ice, *Trying to be funny*.
 

@@ -3,6 +3,9 @@ body.pdf {
     .light {
         color: #aaa;
     }
+    strong {
+      font-weight: 600;
+    }
     em {
        font-style: normal;
     }
@@ -71,8 +74,10 @@ body.pdf {
 
     blockquote {
         top: 10px;
-        right: 50px;
+        right: 80px;
         position: absolute;
+        text-align: right;
+        font-size: .9em;
     }
 
     dd > p:first-child{
@@ -118,7 +123,7 @@ body.pdf {
     }
 
     dl {
-        border: 1px solid red;
+
         margin: .7em 0 0;
         /* page-break-inside: avoid;  !important; */
         display: block;
