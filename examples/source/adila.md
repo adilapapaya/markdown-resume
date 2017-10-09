@@ -21,17 +21,20 @@ Apple Product Design
   __February 2012 - Current__
 
 
-  Involved in the analysis and visualization of data at various stages of the product development cycle at Apple including design, prototyping, manufacturing, and post-release.
+  Led analysis and visualization efforts for data collected at various stages of the product development cycle at Apple including design, prototyping, manufacturing, and post-release. Wrote scripts and created tools that allowed engineers to identify core issues within minutes as opposed to days. 
 
-  Collaborated closely with various teams across the company including Industrial Design, Product Design, Manufacturing Design, Advanced Manufacturing Engineering, and Operations.
+  Collaborated closely with various teams across the company as the data science and visualization lead. These teams include Industrial Design, Product Design, Manufacturing Design, Advanced Manufacturing Engineering, and Operations.
 
-  Created simulations and visualizations to identify core issues and evaluate design decisions. Some of the affected products include the Apple iMac display, the Apple MacBook haptic trackpad, the Apple MacBook Pro touchbar, and keyboards across all Apple products. 
+  Created automated reports detailing daily factory performance for a few key products. 
+
+  Wrote algorithms to help determine part selection that would optimize final system cosmetics.
+
 
   Built generic visualization tools (primarily web-based or in Processing) that continue to be used throughout the company.
 
   Architected and developed visualizations for viewing and monitoring manufacturing data in real-time.
 
-  Revamped an exiting product quality monitoring tool to improve usability and speed and permit more in-depth analysis of issues.
+  Revamped an existing product quality monitoring tool to improve usability and speed, as well as permit more in-depth analysis of issues.
 
 
 Open Source Statistics Library
